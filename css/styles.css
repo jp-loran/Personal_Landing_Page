@@ -1,0 +1,64 @@
+body{
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+
+
+/*FONDO*/
+.mountain img{
+  position: absolute;
+  width:100%;
+  height: 60vh;
+  bottom: 0;
+  filter: brightness(0.7);
+}
+
+.bg img{
+  position: absolute;
+  width:100%;
+  height: 100%;
+  bottom: 0;
+  filter: brightness(0.9);
+  /*filter: brightness(0.9);*/
+}
+
+/*NOMBRE*/
+.presentation {
+  margin:0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFD523;
+}
+
+.presentation h1{
+  overflow: hidden;
+  margin-top: 1%;
+  /*font-family: 'Secular One', sans-serif;*/
+  font-family: 'Concert One', cursive;
+  font-size: 3.3rem;
+  text-align: center;
+  animation: reveal_h1 4s;
+}
+
+.presentation h4{
+  overflow: hidden;
+  margin-bottom: 1%;
+  font-family: 'Inconsolata', monospace;
+  font-size: 2.3rem;
+  text-align: left;
+  animation: reveal_h4 4s;
+}
+
+@keyframes reveal_h1 {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes reveal_h4 {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}

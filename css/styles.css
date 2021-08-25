@@ -16,9 +16,10 @@ section{
 
 .mountain img{
   position: absolute;
-  width:101%;
+  width:102%;
   height: 60vh;
-  bottom: 0;
+  bottom: -1vw;
+  left: -1vw;
   filter: brightness(0.7);
 }
 

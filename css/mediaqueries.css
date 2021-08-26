@@ -22,6 +22,49 @@
     height: 55vh;
   }
 
+  .p-1{
+    right: 60%;
+    animation-delay: 1s;
+    animation-duration:17s;
+  }
+  .p-2{
+    top: -30%;
+    right: -30%;
+    animation-delay: 1s;
+    animation-duration:17s;
+  }
+  .p-3{
+    top: -40%;
+    right: 25%;
+    animation-delay: 1s;
+    animation-duration:17s;
+  }
+
+  .p-4{
+    top: -25%;
+    right: 80%;
+    animation-delay: 1s;
+    animation-duration:15s;
+  }
+
+  .p-5{
+    right: 90%;
+    animation-delay: 1s;
+    animation-duration:17s;
+  }
+
+  @keyframes shooting
+{
+    from {
+      transform: translateX(-100px) translateY(-100px) rotate(-125deg);
+      opacity: 1;
+    }
+    to {
+      transform: translateX(300px) translateY(200px) rotate(-125deg);
+      opacity: 0;
+    }
+}
+
 
 }
 

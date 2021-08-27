@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/burguer.css">
   <link rel="stylesheet" href="css/mediaqueries.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,32 +19,46 @@
 </head>
 <body>
 
-  <section>
-    <div id="scene">
-      <div class="bg">
-        <img src="/img/bg.png" alt="" >
-      </div>
+  <div class="bg">
+    <img src="/img/bg.png" alt="" >
+  </div>
 
-      <div class="p p-1"></div>
-      <div class="p p-2"></div>
-      <div class="p p-3"></div>
-      <div class="p p-4"></div>
-      <div class="p p-5"></div>
-
-      <div class="mountain">
-        <img src="/img/Mountains.png" alt="" data-speed='1.5' class="layer">
-      </div>
-
-    </div>
-</section>
   
 
+  
+  <main>
+    <section>
+      <div id="scene">
+  
+        <div class="menu-btn">
+          <div class="menu-btn__burguer"></div>
+        </div>
+        
+        <div class="p p-1"></div>
+        <div class="p p-2"></div>
+        <div class="p p-3"></div>
+        <div class="p p-4"></div>
+        <div class="p p-5"></div>
+          
+        <div class="mountain">
+          <img src="/img/Mountains.png" alt="" data-speed='1.5' class="layer">
+        </div>
 
-<div class="presentation">
-  <h4>Hi, I'm</h4>
-  <h1>Juan Alvarez</h1>
-</div>
-    
+
+        <div class="frente">
+          <img src="/img/bottom.png" alt="">
+        </div>
+        
+      </div>
+    </section>
+  
+    <div class="presentation">
+      <h4>Hi, I'm</h4>
+      <h1>Juan Alvarez</h1>
+    </div>
+  </main>
+
 </body>
  <script src="/js/parallax-bg.js"></script>
+ <script src="/js/burguer.js"></script>
   </html>
